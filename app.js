@@ -14,6 +14,14 @@ time.innerText=`${h}:${m}:${s}`
 
 
 
-setTimeout(showTime,1000)
-}
-showTime()
+setInterval(showTime,1000)
+ }
+ showTime()
+// function showTime(){
+//     var date=new Date();
+//     var time=date.toLocaleTimeString();
+//    let t=document.querySelector(".clock");
+//    t.innerText=time;
+// }
+// setInterval(showTime,1000)
+// showTime()
